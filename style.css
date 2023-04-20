@@ -43,6 +43,9 @@
     margin-bottom: 25px;
 }
 
+
+/* For Add your text  */
+
 input {
     flex: 1;
     border: none;
@@ -51,6 +54,9 @@ input {
     padding: 10px;
     font-weight: 14;
 }
+
+
+/* ADD Button  */
 
 button {
     border: none;
@@ -63,6 +69,9 @@ button {
     border-radius: 40px;
 }
 
+
+/* change  */
+
 ul li {
     list-style: none;
     font-size: 17px;
@@ -72,14 +81,27 @@ ul li {
     position: relative;
 }
 
+
+/* change  */
+
 ul li::before {
     content: '';
     position: absolute;
-    height: 25px;
-    width: 25px;
+    height: 28px;
+    width: 28px;
     border-radius: 50%;
-    background-image: url(images/unchecked.png);
+    background-image: url(images/unchecked.jpeg);
     background-size: cover;
     background-position: center;
-    top: 12px
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(images/checked.jpeg);
 }
