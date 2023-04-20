@@ -87,10 +87,10 @@ ul li {
 ul li::before {
     content: '';
     position: absolute;
-    height: 28px;
-    width: 28px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
-    background-image: url(images/unchecked.jpeg);
+    background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
     top: 12px;
